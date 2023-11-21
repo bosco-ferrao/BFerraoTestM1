@@ -34,6 +34,19 @@ public class TestBosTestM1 {
 	}
 	
 	@Test
+	public void TestAddNegativeNumberPositiveNumber() {
+		//given
+		int a = -1;
+		int b = 2;
+		
+		//when
+		int sum = bosTestM1.add(a, b);
+		
+		//then
+		assertEquals(1, sum);
+	}
+	
+	@Test
 	public void TestAddNegativeNumbers() {
 		//given
 		int a = -1;
