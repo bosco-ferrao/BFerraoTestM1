@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
 public class TestBosTestM1 {
-	BosTestM1 bosTestM1 = new BosTestM1();
+	private BosTestM1 bosTestM1 = new BosTestM1();
 	
 	@Test
 	public void TestAddPositiveNumbers() {
