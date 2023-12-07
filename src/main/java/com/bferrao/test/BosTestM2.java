@@ -5,6 +5,10 @@ public class BosTestM2 {
 	public static String newList(String[] students) {
 		// Insert your code here
 		String ans = "";
+		if (students == null ||  students.length <1) {
+			return ans;
+		}
+		
 		int count = 0;
 		for (int ci = 0; ci < students.length; ci++) {
 			String student = students[ci];
