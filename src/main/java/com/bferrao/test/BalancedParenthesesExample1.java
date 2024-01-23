@@ -7,6 +7,7 @@ public class BalancedParenthesesExample1 {
 
 	// create method balancedParenthesis() to check whether the input string is
 	// balanced or not
+	// Allowed brackets are '(', '[' or '{' and their closures
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static boolean balancedParenthesis(String inputStr) {
 
